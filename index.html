@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Freehand</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <header class="header py-3 uppercase">
+      <div class="container d-flex justify-content-start px-sm-3 px-lg-5">
+        <!-- <div class="container-fluid d-flex"> -->
+        <a class="nav__brand flex-grow-1" href="#">Manifest</a>
+        <nav class="nav">
+          <label for="burger" class="burger">
+            <input
+              type="checkbox"
+              name="burger"
+              id="burger"
+              class="burger__input"
+            />
+            <div class="burger__icon icon">
+              <span class="icon__slash icon__slash_top"></span>
+              <span class="icon__slash icon__slash_mid"></span>
+              <span class="icon__slash icon__slash_bot"></span>
+            </div>
+          </label>
+          <ul
+            class="nav__list mb-2 mb-lg-0 d-flex flex-row gap-4 align-items-center"
+          >
+            <li class="nav__item">
+              <a class="nav__link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">About</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Works</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Blog</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Contact</a>
+            </li>
+          </ul>
+        </nav>
+        <button class="search-button ms-5">
+          <img src="./assets/imgs/icons/search.png" alt="search" />
+        </button>
+      </div>
+    </header>
+    <main class="main">
+      <section class="first-screen mb-5 row mx-0">
+        <div class="container px-sm-3 px-lg-5 gap-5">
+          <h1 class="first-screen__slogan col-8 p-0 mt-lg-5 mt-sm-3 mt-5">
+            Manifest is a newborn theme. Clean, simple and fast.
+          </h1>
+        </div>
+      </section>
+      <div class="container d-flex flex-column px-sm-3 px-lg-5 gap-5">
+        <section class="blog d-flex flex-column gap-5">
+          <h2 class="section-title mb-1 h2 text-center text-sm-start">Blog</h2>
+          <article
+            class="post row align-items-center flex-column-reverse flex-sm-column-reverse flex-md-row"
+          >
+            <div class="col-12 col-md-6 text-center">
+              <img
+                src="./assets/imgs/arrow.png"
+                class="img-fluid"
+                alt="arrow"
+              />
+            </div>
+            <div
+              class="flex-column align-items-start justify-content-center col-12 col-md-6 col-sm-12 d-flex gap-3 gap-md-2 gap-lg-4 gap-xl-5"
+            >
+              <p class="post__theme post__theme_lg m-0">
+                Technology, Interface Design
+              </p>
+              <h4 class="post__title m-0">
+                Using UX Design to Build a <br />
+                Sustainable Future
+              </h4>
+              <p class="post__date post__date_lg m-0">6 May, 2020</p>
+              <p class="post__desc m-0">
+                Transformation has to be driven by everybody, not just by
+                climate groups, and we have a responsibility to use our
+                influence to drive this.
+                <span class="more-arrow ms-3"
+                  ><img src="./assets/imgs/svg/Arrow 1.svg" alt=""
+                /></span>
+              </p>
+            </div>
+          </article>
+          <article
+            class="row d-flex align-items-center flex-column-reverse flex-sm-column-reverse flex-md-row-reverse"
+          >
+            <div class="col-12 col-md-6 text-center">
+              <img
+                src="./assets/imgs/blog-image.png"
+                class="img-fluid"
+                alt="arrow"
+              />
+            </div>
+            <div
+              class="post flex-column align-items-start justify-content-center col-12 col-md-6 col-sm-12 d-flex gap-3 gap-md-2 gap-lg-4 gap-xl-5"
+            >
+              <p class="post__theme post__theme_lg m-0">
+                Technology, Interface Design
+              </p>
+              <h4 class="post__title m-0e">
+                Using UX Design to Build a <br />
+                Sustainable Future
+              </h4>
+              <p class="post__date post__date-lg_lg m-0">6 May, 2020</p>
+              <p class="post__desc-lg m-0">
+                Transformation has to be driven by everybody, not just by
+                climate groups, and we have a responsibility to use our
+                influence to drive this.
+                <span class="more-arrow ms-3"
+                  ><img src="./assets/imgs/svg/Arrow 1.svg" alt=""
+                /></span>
+              </p>
+            </div>
+          </article>
+        </section>
+        <section class="latest-blogs d-flex flex-column">
+          <h2 class="section-title_has-arrow section-title_sml mb-5 text-start">
+            Latest Posts
+          </h2>
+          <ul class="row p-0 m-0 d-flex flex-column flex-md-row gy-4">
+            <li
+              class="post col-12 col-lg-4 d-flex flex-column flex-sm-row flex-lg-column"
+            >
+              <div class="col-12 col-sm-6 col-lg-12 text-center">
+                <img
+                  src="./assets/imgs/lamp.png"
+                  class="img-fluid"
+                  alt="lamp"
+                />
+              </div>
+              <div
+                class="d-flex flex-column justify-content-start justify-md-content-center col-12 col-sm-6 col-lg-12 mt-lg-3"
+              >
+                <div class="d-flex justify-content-between mb-4">
+                  <p class="post__theme m-0">Interface Design</p>
+                  <p class="post__date m-0">8 June, 2020</p>
+                </div>
+
+                <h4 class="post__title m-0 mb-4">UX traffic light colours</h4>
+                <p class="post__desc m-0">
+                  UI has to make a huge visual difference between warning, an
+                  alert and a success.
+                </p>
+              </div>
+            </li>
+            <li
+              class="post col-12 col-lg-4 d-flex flex-column flex-sm-row-reverse flex-lg-column"
+            >
+              <div class="col-12 col-sm-6 col-lg-12 text-center">
+                <img
+                  src="./assets/imgs/arrow_sm.png"
+                  class="img-fluid"
+                  alt="arrow"
+                />
+              </div>
+              <div
+                class="d-flex flex-column justify-content-start justify-md-content-center col-12 col-sm-6 col-lg-12 mt-lg-3"
+              >
+                <div class="d-flex justify-content-between mb-4">
+                  <p class="post__theme m-0">Technology</p>
+                  <p class="post__date m-0">6 May, 2020</p>
+                </div>
+                <h4 class="post__title m-0 mb-4">
+                  Using UX Design to Build a <br />
+                  Sustainable Future
+                </h4>
+                <p class="post__desc m-0">
+                  UI has to make a huge visual difference between warning, an
+                  alert and a success.
+                </p>
+              </div>
+            </li>
+            <li
+              class="post col-12 col-lg-4 d-flex flex-column flex-sm-row flex-lg-column"
+            >
+              <div class="col-12 col-sm-6 col-lg-12 text-center">
+                <img
+                  src="./assets/imgs/saray.png"
+                  class="img-fluid"
+                  alt="saray"
+                />
+              </div>
+              <div
+                class="d-flex flex-column justify-content-start justify-md-content-center col-12 col-sm-6 col-lg-12 mt-lg-3"
+              >
+                <div class="d-flex justify-content-between mb-4">
+                  <p class="post__theme m-0">Visual Design</p>
+                  <p class="post__date m-0">8 June, 2020</p>
+                </div>
+                <h4 class="post__title m-0 mb-4">Creativity vs. UX</h4>
+                <p class="post__desc m-0">
+                  Is it possible to create a delightful user experience without
+                  following best UX practices?
+                </p>
+              </div>
+            </li>
+          </ul>
+        </section>
+        <section class="latest-blogs d-flex flex-column">
+          <h2 class="section-title_has-arrow section-title_sml mb-5 text-start">
+            The Most Popular
+          </h2>
+          <ul class="row p-0 d-flex flex-column flex-md-row gy-5">
+            <li class="post col-12 col-md-6 d-flex flex-column gap-4">
+              <div class="col-12 text-center">
+                <img
+                  src="./assets/imgs/cool_lamp.png"
+                  class="img-fluid"
+                  alt="lamp"
+                />
+              </div>
+              <div
+                class="d-flex flex-column justify-content-start justify-md-content-center col-12"
+              >
+                <div class="d-flex justify-content-between mb-4">
+                  <p class="post__theme m-0">Interface Design</p>
+                  <p class="post__date m-0">8 June, 2020</p>
+                </div>
+
+                <h4 class="post__title m-0 mb-4">
+                  Mentorship Match — How a simple LinkedIn feature can boost
+                  diversity
+                </h4>
+                <p class="post__desc m-0">
+                  LinkedIn is on a clear mission to make professionals more
+                  successful by connecting the global workforce and as we
+                  learned — diversity and success go hand in hand
+                </p>
+              </div>
+            </li>
+            <li class="post col-12 col-md-6 d-flex flex-column gap-4">
+              <div class="col-12 col-lg-12 text-center">
+                <img
+                  src="./assets/imgs/cool_arrow.png"
+                  class="img-fluid"
+                  alt="arrow"
+                />
+              </div>
+              <div
+                class="d-flex flex-column justify-content-start justify-md-content-center col-12"
+              >
+                <div class="d-flex justify-content-between mb-4">
+                  <p class="post__theme m-0">Technology</p>
+                  <p class="post__date m-0">6 May, 2020</p>
+                </div>
+                <h4 class="post__title m-0 mb-4">Creativity vs. UX</h4>
+                <p class="post__desc m-0">
+                  Is it possible to create a delightful user experience without
+                  following best UX practices?
+                </p>
+              </div>
+            </li>
+          </ul>
+
+          <button class="more-btn">Load More</button>
+        </section>
+        <section
+          class="row d-flex justify-content-start justify-content-sm-end justify-content-lg-between pt-5 info-block gap-3"
+        >
+          <p class="info-block__title col-lg-5 col-12 text-start">
+            Full-time UI/UX designer <br />
+            Head of Design at VeronaLabs.com<br />
+            <span class="more-arrow more-arrow_permanent"
+              ><img src="./assets/imgs/svg/Arrow 1.svg" alt=""
+            /></span>
+          </p>
+          <p
+            class="info-block__desc col-11 col-lg-5 col-sm-9 text-start text-sm-end text-lg-start"
+          >
+            We work with clients around the world from our headquarters in
+            Charleston, South Carolina.
+            <br />
+            <br />
+            We focus on naming, branding, brand narratives, website design and
+            development, and brand experiences.
+          </p>
+        </section>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="container d-flex flex-column px-sm-5">
+        <div class="row my-0 pt-5 d-flex flex-wrap text-center text-md-start">
+          <div class="contacts col-12 col-md-6">
+            <h2 class="mb-4">Need a project?</h2>
+            <p class="tel mb-1">(239) 555-0108</p>
+            <p class="email">tanya.hill@example.com</p>
+          </div>
+          <nav
+            class="col-12 col-md-6 d-flex align-items-center justify-content-center justify-content-md-end pt-4 pt-md-0"
+          >
+            <ul class="socials">
+              <li class="social">
+                <a href="#" class="social__link">
+                  <svg
+                    width="26"
+                    height="24"
+                    viewBox="0 0 26 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="icon"
+                  >
+                    <use xlink:href="./assets/imgs/svg/sprite.svg#inst"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social">
+                <a href="#" class="social__link">
+                  <svg
+                    width="14"
+                    height="24"
+                    viewBox="0 0 14 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="icon"
+                  >
+                    <use
+                      xlink:href="./assets/imgs/svg/sprite.svg#facebook"
+                    ></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social">
+                <a href="#" class="social__link">
+                  <svg
+                    width="30"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="icon"
+                  >
+                    <use
+                      xlink:href="./assets/imgs/svg/sprite.svg#twitter"
+                      class="twitter"
+                    ></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social">
+                <a href="#" class="social__link">
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="icon"
+                  >
+                    <use
+                      xlink:href="./assets/imgs/svg/sprite.svg#linkedin"
+                    ></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <p class="copyrights text-center pt-3 col-12">
+            © Copyright Manifest Theme. Allrights reserved
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
