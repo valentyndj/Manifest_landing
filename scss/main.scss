@@ -326,29 +326,32 @@ body {
     gap: 25px;
 }
 
-.social__link {
-    width: 50px;
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 0px 0px 0px 1px $sup-gray;
+.social {
+    &__icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        fill: $sup-gray;
+    }
 
-    &:hover {
-        background-color: $sup-gray;
+    &__link {
+        width: 50px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0px 0px 0px 1px $sup-gray;
 
-        .icon {
-            fill: white;
+        &:hover {
+            background-color: $sup-gray;
+
+            & .social__icon {
+                fill: white;
+            }
         }
     }
 }
 
-.icon {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    fill: $sup-gray;
-}
 
 .twitter {
     transform: scale(1.2) translateY(2px);
