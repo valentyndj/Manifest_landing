@@ -1,2 +1,4 @@
-# responsive_MANIFEST
-https://mamba0328.github.io/responsive_MANIFEST/
+# Manifest landing page
+Primary bootstrap styled landing page with responsive design
+
+https://valentyndj.github.io/Manifest_landing/
